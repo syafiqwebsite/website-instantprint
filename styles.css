@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex; /* Menggunakan flexbox untuk meletakkan item dalam satu baris */
+    align-items: center; /* Menyelaraskan item secara vertikal di tengah */
+    margin: 20px; /* Jarak dari tepi */
+}
+
+.gambar {
+    max-width: 30px; /* Ukuran maksimum gambar */
+    margin-right: 10px; /* Jarak antara gambar dan teks */
+}
+
+.teks {
+    max-width: 400px; /* Ukuran maksimum teks */
+}

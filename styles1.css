@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box; /* Mengatur box-sizing untuk semua elemen */
+}
+
+body {
+    margin: 0; /* Menghapus margin default */
+    font-family: Arial, sans-serif; /* Font untuk teks */
+    background-color: #f4f4f4; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+}
+
+header {
+    background: #200386; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+    padding: 8px 0; /* Padding atas dan bawah */
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+}
+
+nav ul {
+    list-style-type: none; /* Menghapus bullet point */
+    padding: 0; /* Menghapus padding */
+}
+
+nav ul li {
+    display: inline; /* Menampilkan item menu dalam baris yang sama */
+    margin: 0 15px; /* Memberikan jarak antar item menu */
+}
+
+nav a {
+    color: white; /* Warna teks tautan */
+    text-decoration: none; /* Menghapus garis bawah */
+}
+
+.hero {
+    background: url('https://www.publicdomainpictures.net/pictures/20000/velka/printing-background.jpg') no-repeat center center; /* Gambar latar belakang */
+    background-size: cover; /* Mengatur gambar agar memenuhi seluruh area */
+    color: white; /* Warna teks */
+    padding: 100px 20px; /* Padding atas dan bawah */
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+}
+
+.hero h2 {
+    font-size: 2.5em; /* Ukuran font untuk sub-judul */
+}
+
+.hero p {
+    font-size: 1.2em; /* Ukuran font untuk paragraf */
+}
+
+.btn {
+    display: inline-block; /* Mengatur tombol sebagai block element */
+    padding: 30px 40px; /* Padding untuk tombol */
+    background: #110dd5; /* Warna latar belakang tombol */
+    color: rgb(248, 247, 246); /* Warna teks tombol */
+    text-decoration: none; /* Menghapus garis bawah */
+    border-radius: 15px; /* Sudut melengkung pada tombol */
+    transition: background 0.3s; /* Transisi saat hover */
+}
+
+.btn:hover {
+    background: #10dc1d; /* Warna tombol saat hover */
+}
+
+main {
+    padding: 20px; /* Memberikan padding di dalam main */
+}
+
+section {
+    margin: 40px 0; /* Memberikan margin atas dan bawah pada setiap section */
+    background: white; /* Warna latar belakang section */
+    padding: 20px; /* Padding di dalam section */
+    border-radius: 10px; /* Sudut melengkung pada section */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan pada section */
+}
+
+footer {
+    text-align: center; /* Mengatur teks footer menjadi rata tengah */
+    padding: 20px 0; /* Padding atas dan bawah */
+    background: #007BFF; /* Warna latar belakang footer */
+    color: white; /* Warna teks footer */
+    position: relative; /* Memastikan footer tetap di bawah */
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Menampilkan item menu dalam kolom pada layar kecil */
+        margin: 10px 0; /* Margin vertikal antar item menu */
+    }
+    
+    .hero {
+        padding: 60px 20px; /* Mengurangi padding pada layar kecil */
+    }
+}
